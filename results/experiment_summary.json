@@ -1,0 +1,42 @@
+{
+  "exp1": {
+    "nonneg": true,
+    "upper_bound": true,
+    "barrier": true,
+    "positivity": true,
+    "asym_ratio_mean": 0.5719363019205974,
+    "asym_ratio_std": 0.20672693370503742,
+    "elapsed_s": 15.10927700996399
+  },
+  "exp2": {
+    "max_call_err": 0.10564814524402166,
+    "wasserstein_max": 0.12424775000098344,
+    "barrier_violations_total": 0,
+    "elapsed_s": 9.348044872283936
+  },
+  "exp3": {
+    "n_pass": 59,
+    "n_total": 60,
+    "n_sig_fail": 0,
+    "min_delta_C": -3.3296734624939373e-06,
+    "min_delta_C_ci_low": -0.00026815207005000813,
+    "theorem_supported": true,
+    "elapsed_s": 7.961114883422852
+  },
+  "exp4": {
+    "mean_equal_all": true,
+    "var_order_all": true,
+    "vs_order_all": true,
+    "sq_order_all": true,
+    "elapsed_s": 15.61909031867981
+  },
+  "exp5": {
+    "pathwise_rmse": 1.2859477377582785e-17,
+    "Q_A_rmse": 2.754518164433805e-17,
+    "identity_holds": true,
+    "duhamel_same_sign": true,
+    "duhamel_ratio": 0.869478887679602,
+    "cov_positive": true,
+    "elapsed_s": 6.846009731292725
+  }
+}
